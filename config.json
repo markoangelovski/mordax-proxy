@@ -1,0 +1,4 @@
+{
+  "hostLocal": "localhost",
+  "hostHeroku": "mordax.herokuapp.com"
+}

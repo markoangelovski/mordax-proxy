@@ -1,0 +1,14 @@
+{
+  "name": "mordax_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "local": "node app-local.js",
+    "http": "node app-http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
