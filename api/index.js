@@ -2,7 +2,7 @@ const http = require("http");
 const https = require("https");
 const Stream = require("stream").Transform;
 
-const { hostHeroku } = require("./config.json");
+const { hostHeroku } = require("../config.json");
 
 const requestListener = async (req, res) => {
   const proxyData = () =>
