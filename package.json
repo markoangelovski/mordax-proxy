@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "local": "node app-local.js",
-    "http": "node app-http.js"
+    "start": "node api/proxy.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-proxy-middleware": "^2.0.3"
+  }
 }
