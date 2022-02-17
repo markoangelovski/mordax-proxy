@@ -1,7 +1,7 @@
 {
   "name": "mordax_proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proxy service for Mordax.",
   "main": "app.js",
   "scripts": {
     "start": "node api/proxy.js"
