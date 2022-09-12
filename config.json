@@ -1,3 +1,4 @@
 {
-  "hostHeroku": "mordax.herokuapp.com"
+  "hostHeroku": "mordax.herokuapp.com",
+  "hostAzure": "mordax-api.azurewebsites.net"
 }

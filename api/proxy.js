@@ -1,13 +1,13 @@
 const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
-const { hostHeroku } = require("../config.json");
+const { hostAzure } = require("../config.json");
 
 const app = express();
 
 app.use(
   createProxyMiddleware({
-    target: `https://${hostHeroku}`,
+    target: `https://${hostAzure}`,
     changeOrigin: true
   })
 );
